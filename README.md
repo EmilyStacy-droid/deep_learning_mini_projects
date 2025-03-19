@@ -12,8 +12,8 @@ This project comprises three mini projects and one final project:
 ## Final Project Overview: 
 This project consists of three Jupyter notebooks:
 1. [Final Movie Review](./Final_Movie_Review/final_movie_review.ipynb) - Covers the project introduction, exploratory data analysis (EDA), final analysis, and recommendations.
-2. [Final_movie_review_pytorch.ipynb](https://github.com/EmilyStacy-droid/deep_learning_mini_projects/blob/dev/Final_Movie_Review/final_movie_review_pytorch.ipynb) – Implements the model architecture and accuracy analysis using PyTorch.
-3. [Final_movie_review_tensor_flow.ipynb](./final_movie_review_tensor_flow.ipynb) - Implements the model architecture and accuracy analysis using TensorFlow.
+2. [Final_movie_review_pytorch.ipynb](./Final_Movie_Review/final_movie_review_pytorch.ipynb) – Implements the model architecture and accuracy analysis using PyTorch.
+3. [Final_movie_review_tensor_flow.ipynb](./Final_Movie_Review/final_movie_review_tensor_flow.ipynb) - Implements the model architecture and accuracy analysis using TensorFlow.
 
 ### Final Movie Review Execution Notes:
 - Running both PyTorch and TensorFlow on the same environment can lead to dependency conflicts. To avoid this, first run Final_Movie_Review.ipynb to generate and save the train and test datasets. Then, use a cloud-based VM (e.g., Google Colab) to run the PyTorch and TensorFlow notebooks separately.
